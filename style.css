@@ -1,0 +1,49 @@
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: rgb(14, 14, 59);
+}
+.header-logo img{
+    display: inline;
+    
+}
+.header-title {
+    flex-direction: row-reverse;
+    text-align: center;
+}
+.header-bottoms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header-bottoms a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-title span{
+    font-weight: bold;
+    font-size: 20px;
+    color: white; 
+}
+.sidebar {
+    background: rgb(145, 145, 145);
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    width:120px;
+
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+    border: 2px dashed lightblue;
+    
+}
+.sidebar-info span,
+.sidebar-info-dostavka span {
+    font-weight: bold;
+    text-align: center;
+
+}
